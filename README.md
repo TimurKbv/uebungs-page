@@ -1,3 +1,15 @@
-# -bungs-page
+# Uebungs-page
 
-1111
+
+## Navigation 
+``` Ammar
+```
+
+## Main Section 
+```
+Hoa
+```
+## Second Section & Footer
+```
+Schamil & Timur
+```
