@@ -1,0 +1,97 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#photo-section {
+    width: 100%;
+
+}
+
+#photo-section-content1 {
+    width: 100%;
+}
+#photo-section-content1 h1 { 
+  font-size: 82px;
+  font-weight: 400;
+  width: 95%;
+  margin: 0 auto;
+
+    
+}
+
+.mockup-video-loop-2 {
+   margin-left: 300px;
+  
+}
+
+
+#photo-section-content1 h2 {
+    font-size: 62px;
+    font-weight:400; 
+     width: 95%;
+    margin: 0 auto;
+
+}
+
+
+.photo-content-1 {
+    
+    height: 90vh;
+    
+    display: grid;
+    grid-template-areas: 
+    "photo1 photo2";
+    
+    gap: 20px;
+    margin: 10px 40px;
+}
+.photo1 {
+    grid-area: photo1;
+    background-image: url(/img/photo.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+}
+.photo2 {
+    grid-area: photo2;
+    background-image: url(/img/photo2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+    
+
+}
+.photo2:hover {
+    
+}
+.photo3 img {
+    margin-left: 40px;
+    
+    width: 95%;
+    height: 90vh;
+    
+}
+.photo-content-2 {
+    height: 90vh;
+    display: grid;
+    grid-template-areas: 
+    "photo5 photo6";
+    gap: 20px;
+    margin: 10px 40px;
+
+}
+.photo5 {
+    grid-area: photo5;
+    background-image: url(/img/photo5.svg);
+}
+.photo6 {
+    grid-area: photo6;
+    background-image: url(/img/photo5.svg);
+}
